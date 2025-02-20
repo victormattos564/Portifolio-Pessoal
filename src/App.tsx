@@ -94,7 +94,7 @@ function App() {
         <div className="absolute inset-0 bg-black/70"></div>
         <nav className="absolute top-0 w-full p-6 flex justify-between items-center z-10">
           <div className="flex items-center gap-2">
-           <h1 className="glitch text-2xl font-bold mb-4">VM</h1>
+          <div className="text-2xl font-bold neon-text">VM</div>
           </div>
           <div className="flex gap-8">
             <a href="#about" className="hover:text-cyan-300 transition-colors">About</a>
