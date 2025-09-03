@@ -150,7 +150,9 @@ function App() {
             { name: 'JavaScript', desc: 'JavaScript é uma linguagem de programação interpretada usada no desenvolvimento web para descrever funcionalidades e comportamentos da página.' },
             { name: 'React', desc: 'React é uma biblioteca JavaScript para construção de interfaces de usuário, mantida pela Facebook e por uma comunidade de desenvolvedores individuais e empresas.' },
             { name: 'Node.JS', desc: 'Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.' },
-            { name: 'PostgreSQL', desc: 'PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional com foco em extensibilidade e conformidade com padrões.' }
+            { name: 'PostgreSQL', desc: 'PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional com foco em extensibilidade e conformidade com padrões.' },
+            { name: '4GL/PROGRESS', desc: '4GL/PROGRESS é uma linguagem de programação de quarta geração e ambiente de desenvolvimento para aplicações empresariais.' },
+            { name: 'QAD', desc: 'QAD é um sistema ERP (Enterprise Resource Planning) robusto para gerenciamento de recursos empresariais e processos de negócio.' }
           ].map((skill, index) => (
             <div key={index} className="card-glow p-6 rounded-lg transform hover:scale-105 transition-transform">
               <h3 className="text-xl font-bold mb-4 neon-text">{skill.name}</h3>
