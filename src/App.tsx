@@ -135,7 +135,9 @@ function App() {
           <p className="text-lg leading-relaxed">
             Olá! Me chamo Victor Mattos, sou desenvolvedor web Front-end/Back-End com dois anos 
             de experiência no curso de Desenvolvimento de Sistemas do SENAI. Sou apaixonado por 
-            tecnologia e programação, e estou sempre em busca de novos desafios e aprendizados.
+            tecnologia, programação e cybersecurity, e estou sempre em busca de novos desafios e 
+            aprendizados. Procuro sempre mais conhecimento nas áreas de segurança da informação 
+            e desenvolvimento, mantendo-me atualizado com as últimas tendências e práticas do mercado.
           </p>
         </div>
       </section>
