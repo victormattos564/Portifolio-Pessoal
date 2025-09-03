@@ -152,7 +152,10 @@ function App() {
             { name: 'Node.JS', desc: 'Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.' },
             { name: 'PostgreSQL', desc: 'PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional com foco em extensibilidade e conformidade com padrões.' },
             { name: '4GL/PROGRESS', desc: '4GL/PROGRESS é uma linguagem de programação de quarta geração e ambiente de desenvolvimento para aplicações empresariais.' },
-            { name: 'QAD', desc: 'QAD é um sistema ERP (Enterprise Resource Planning) robusto para gerenciamento de recursos empresariais e processos de negócio.' }
+            { name: 'QAD', desc: 'QAD é um sistema ERP (Enterprise Resource Planning) robusto para gerenciamento de recursos empresariais e processos de negócio.' },
+            { name: 'Python', desc: 'Python é uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida por sua sintaxe clara e versatilidade.' },
+            { name: 'Kali Linux', desc: 'Kali Linux é uma distribuição Linux baseada em Debian, focada em testes de penetração e auditoria de segurança.' },
+            { name: 'Linux', desc: 'Linux é um sistema operacional de código aberto baseado em Unix, amplamente utilizado em servidores e desenvolvimento.' }
           ].map((skill, index) => (
             <div key={index} className="card-glow p-6 rounded-lg transform hover:scale-105 transition-transform">
               <h3 className="text-xl font-bold mb-4 neon-text">{skill.name}</h3>
