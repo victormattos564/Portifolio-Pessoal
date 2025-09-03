@@ -116,7 +116,7 @@ function App() {
           <h1 className="glitch text-6xl font-bold mb-4" data-text="Victor Mattos">
             Victor Mattos
           </h1>
-          <p className="text-xl neon-text">Dev Junior</p>
+          <p className="text-xl neon-text">Dev Pleno</p>
           <div className="mt-8 flex gap-4 justify-center">
             <a href="https://github.com/victormattos564" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6 hover:text-cyan-300 transition-colors" />
