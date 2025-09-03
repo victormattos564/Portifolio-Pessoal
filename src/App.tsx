@@ -133,7 +133,7 @@ function App() {
         <h2 className="text-4xl font-bold mb-12 text-center glitch" data-text="About Me">About Me</h2>
         <div className="max-w-3xl mx-auto card-glow p-8 rounded-lg">
           <p className="text-lg leading-relaxed">
-            Olá! Me chamo Victor Mattos, sou desenvolvedor web FullStack com dois anos 
+            Olá! Me chamo Victor Mattos, sou desenvolvedor web FullStack com 3 anos 
             de experiência no curso de Desenvolvimento de Sistemas do SENAI. Sou apaixonado por 
             tecnologia, programação e cybersecurity, e estou sempre em busca de novos desafios e 
             aprendizados. Procuro sempre mais conhecimento nas áreas de segurança da informação 
