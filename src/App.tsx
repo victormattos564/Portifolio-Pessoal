@@ -127,8 +127,22 @@ function App() {
           </div>
         </div>
       </header>
-      <section>
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+
+      {/* About Section */}
+      <section id="about" className="py-20 px-8">
+        <h2 className="text-4xl font-bold mb-12 text-center glitch" data-text="About Me">About Me</h2>
+        <div className="max-w-3xl mx-auto card-glow p-8 rounded-lg">
+          <p className="text-lg leading-relaxed">
+            Olá! Me chamo Victor Mattos, sou desenvolvedor FullStack com 3 anos 
+            de experiência no curso de Análise Desenvolvimento de Sistemas do SENAI. Sou apaixonado por 
+            tecnologia, programação e cybersecurity, e estou sempre em busca de novos desafios e 
+            aprendizados. Procuro sempre mais conhecimento nas áreas de segurança da informação 
+            e desenvolvimento, mantendo-me atualizado com as últimas tendências e práticas do mercado.
+          </p>
+        </div>
+        
+        {/* Statistics Section */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
           <div className="card-glow p-6 rounded-lg text-center transform hover:scale-105 transition-transform">
             <div className="flex items-center justify-center mb-4">
               <Code className="w-8 h-8 text-cyan-400" />
@@ -162,22 +176,6 @@ function App() {
           </div>
         </div>
       </section>
-
-
-      {/* About Section */}
-      <section id="about" className="py-20 px-8">
-        <h2 className="text-4xl font-bold mb-12 text-center glitch" data-text="About Me">About Me</h2>
-        <div className="max-w-3xl mx-auto card-glow p-8 rounded-lg">
-          <p className="text-lg leading-relaxed">
-            Olá! Me chamo Victor Mattos, sou desenvolvedor FullStack com 3 anos 
-            de experiência no curso de Análise Desenvolvimento de Sistemas do SENAI. Sou apaixonado por 
-            tecnologia, programação e cybersecurity, e estou sempre em busca de novos desafios e 
-            aprendizados. Procuro sempre mais conhecimento nas áreas de segurança da informação 
-            e desenvolvimento, mantendo-me atualizado com as últimas tendências e práticas do mercado.
-          </p>
-        </div>
-        
-        
 
       {/* Skills Section */}
       <section id="skills" className="py-20 px-8 bg-black/50">
