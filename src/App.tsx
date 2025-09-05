@@ -140,6 +140,41 @@ function App() {
             e desenvolvimento, mantendo-me atualizado com as últimas tendências e práticas do mercado.
           </p>
         </div>
+        
+        {/* Statistics Section */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="card-glow p-6 rounded-lg text-center transform hover:scale-105 transition-transform">
+            <div className="flex items-center justify-center mb-4">
+              <Code className="w-8 h-8 text-cyan-400" />
+            </div>
+            <div className="text-3xl font-bold neon-text mb-2">3+</div>
+            <div className="text-sm text-gray-300">Anos de Experiência</div>
+          </div>
+          
+          <div className="card-glow p-6 rounded-lg text-center transform hover:scale-105 transition-transform">
+            <div className="flex items-center justify-center mb-4">
+              <ExternalLink className="w-8 h-8 text-cyan-400" />
+            </div>
+            <div className="text-3xl font-bold neon-text mb-2">10+</div>
+            <div className="text-sm text-gray-300">Projetos Completos</div>
+          </div>
+          
+          <div className="card-glow p-6 rounded-lg text-center transform hover:scale-105 transition-transform">
+            <div className="flex items-center justify-center mb-4">
+              <Terminal className="w-8 h-8 text-cyan-400" />
+            </div>
+            <div className="text-3xl font-bold neon-text mb-2">5+</div>
+            <div className="text-sm text-gray-300">Tecnologias Dominadas</div>
+          </div>
+          
+          <div className="card-glow p-6 rounded-lg text-center transform hover:scale-105 transition-transform">
+            <div className="flex items-center justify-center mb-4">
+              <Github className="w-8 h-8 text-cyan-400" />
+            </div>
+            <div className="text-3xl font-bold neon-text mb-2">1K+</div>
+            <div className="text-sm text-gray-300">Linhas de Código</div>
+          </div>
+        </div>
       </section>
 
       {/* Skills Section */}
