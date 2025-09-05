@@ -171,7 +171,7 @@ function App() {
             <div className="flex items-center justify-center mb-4">
               <Github className="w-8 h-8 text-cyan-400" />
             </div>
-            <div className="text-3xl font-bold neon-text mb-2">1K+</div>
+            <div className="text-3xl font-bold neon-text mb-2">2K+</div>
             <div className="text-sm text-gray-300">Linhas de Código</div>
           </div>
         </div>
