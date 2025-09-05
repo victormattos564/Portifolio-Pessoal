@@ -127,6 +127,7 @@ function App() {
           </div>
         </div>
       </header>
+      <section>
       <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
           <div className="card-glow p-6 rounded-lg text-center transform hover:scale-105 transition-transform">
             <div className="flex items-center justify-center mb-4">
